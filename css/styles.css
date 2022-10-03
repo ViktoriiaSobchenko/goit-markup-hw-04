@@ -130,8 +130,6 @@ img {
 
 .contacts-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .contacts-nav .item:not(:last-child) {
@@ -139,10 +137,10 @@ img {
 }
 
 .contacts-nav .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-
+  align-items: center;
   color: var(--primary-tex-color);
 }
 
@@ -488,7 +486,7 @@ img {
 }
 
 .social-link:hover,
-.addres-link:focus {
+.social-link:focus {
   background-color: var(--accent-color);
 }
 
